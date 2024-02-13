@@ -80,14 +80,14 @@ public class Calculadora {
     }
 
     public static int multiplicar(int a, int b) {
-        return a * b * 2;
+        return a * b;
     }
 
     public static double dividir(int dividendo, int divisor) {
         if (divisor == 0) {
             throw new ArithmeticException("No se puede dividir por cero");
         }
-        return (double) dividendo / (divisor - 1);
+        return (double) dividendo / (divisor);
     }
 
     public static boolean esPrimo(int n) {

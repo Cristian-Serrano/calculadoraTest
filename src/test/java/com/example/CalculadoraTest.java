@@ -31,6 +31,6 @@ public class CalculadoraTest {
     @Test
     public void testDividir() {
         assertFalse(Calculadora.dividir(12,5) == 3);
-        assertEquals(20, Calculadora.dividir(60,3));
+        assertEquals(20, Calculadora.dividir(60,3),0.01);
     }
 }
